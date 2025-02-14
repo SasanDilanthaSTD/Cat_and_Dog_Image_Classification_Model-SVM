@@ -1,0 +1,39 @@
+Metadata-Version: 2.2
+Name: CasifyCatsAndDogs
+Version: 0.0.0
+Summary: A small package to predict the quality of red wine
+Home-page: https://github.com/SasanDilanthaSTD/Cat_and_Dog_Image_Classification_Model-SVM
+Author: SasanDilanthaSTD
+Author-email: sasandilantha12@gmail.com
+Project-URL: Bug Tracker, https://github.com/SasanDilanthaSTD/Cat_and_Dog_Image_Classification_Model-SVM/issues
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# Cat_and_Dog_Image_Classification_Model-SVM-
+
+
+### 1. Create new conda enviroment for implement the model independly
+
+```bash
+conda create -n test_mlproj python=3.10 -y
+```
+
+>- activate that enviroment
+```bash
+conda activate test_mlproj
+```
+>- deactivate that enviroment
+```bash
+conda deactivate
+```
+
+### 2. Run ```requrement.txt``` file for install related dependancies
+>- befor run ensure ```setup.py`` have basic configuratio of this project
+```bash
+pip install -r requirements.txt
+```

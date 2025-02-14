@@ -17,6 +17,7 @@ conda deactivate
 ```
 
 ### 2. Run ```requrement.txt``` file for install related dependancies
+>- befor run ensure ```setup.py`` have basic configuratio of this project
 ```bash
 pip install -r requirements.txt
 ```
